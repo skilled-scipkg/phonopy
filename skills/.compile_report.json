@@ -1,0 +1,396 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "phonopy",
+  "evidence": {
+    "core_skills": [
+      "phonopy-simulation-workflows",
+      "phonopy-examples-and-tutorials",
+      "phonopy-api-and-scripting",
+      "phonopy-inputs-and-modeling",
+      "phonopy-analysis-and-output",
+      "phonopy-test"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/phonopy-simulation-workflows.md",
+      "skills/.evidence/phonopy-examples-and-tutorials.md",
+      "skills/.evidence/phonopy-api-and-scripting.md",
+      "skills/.evidence/phonopy-inputs-and-modeling.md",
+      "skills/.evidence/phonopy-analysis-and-output.md",
+      "skills/.evidence/phonopy-test.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/phonopy-advanced-topics/SKILL.md",
+        "skills/phonopy-advanced-topics/references/doc_map.md",
+        "skills/phonopy-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/phonopy-advanced-topics/SKILL.md",
+        "skills/phonopy-advanced-topics/references/doc_map.md",
+        "skills/phonopy-advanced-topics/references/source_map.md",
+        "skills/phonopy-aims/SKILL.md",
+        "skills/phonopy-aims/references/doc_map.md",
+        "skills/phonopy-aims/references/source_map.md",
+        "skills/phonopy-analysis-and-output/SKILL.md",
+        "skills/phonopy-animation/SKILL.md",
+        "skills/phonopy-animation/references/doc_map.md",
+        "skills/phonopy-animation/references/source_map.md",
+        "skills/phonopy-api-and-scripting/SKILL.md",
+        "skills/phonopy-castep/SKILL.md",
+        "skills/phonopy-castep/references/doc_map.md",
+        "skills/phonopy-castep/references/source_map.md",
+        "skills/phonopy-changelog/SKILL.md",
+        "skills/phonopy-changelog/references/doc_map.md",
+        "skills/phonopy-changelog/references/source_map.md",
+        "skills/phonopy-citation/SKILL.md",
+        "skills/phonopy-citation/references/doc_map.md",
+        "skills/phonopy-citation/references/source_map.md",
+        "skills/phonopy-command-options/SKILL.md",
+        "skills/phonopy-command-options/references/doc_map.md",
+        "skills/phonopy-command-options/references/source_map.md",
+        "skills/phonopy-examples-and-tutorials/SKILL.md",
+        "skills/phonopy-index/SKILL.md",
+        "skills/phonopy-inputs-and-modeling/SKILL.md",
+        "skills/phonopy-phonopy-yaml/SKILL.md",
+        "skills/phonopy-phonopy-yaml/references/doc_map.md",
+        "skills/phonopy-phonopy-yaml/references/source_map.md",
+        "skills/phonopy-setting-tags/SKILL.md",
+        "skills/phonopy-setting-tags/references/doc_map.md",
+        "skills/phonopy-setting-tags/references/source_map.md",
+        "skills/phonopy-simulation-workflows/SKILL.md",
+        "skills/phonopy-symmetry/SKILL.md",
+        "skills/phonopy-symmetry/references/doc_map.md",
+        "skills/phonopy-symmetry/references/source_map.md",
+        "skills/phonopy-test/SKILL.md",
+        "skills/phonopy-theory-and-methods/SKILL.md",
+        "skills/phonopy-theory-and-methods/references/doc_map.md",
+        "skills/phonopy-theory-and-methods/references/source_map.md"
+      ],
+      "deleted": [
+        "skills/phonopy-aims/SKILL.md",
+        "skills/phonopy-aims/references/doc_map.md",
+        "skills/phonopy-aims/references/source_map.md",
+        "skills/phonopy-animation/SKILL.md",
+        "skills/phonopy-animation/references/doc_map.md",
+        "skills/phonopy-animation/references/source_map.md",
+        "skills/phonopy-castep/SKILL.md",
+        "skills/phonopy-castep/references/doc_map.md",
+        "skills/phonopy-castep/references/source_map.md",
+        "skills/phonopy-changelog/SKILL.md",
+        "skills/phonopy-changelog/references/doc_map.md",
+        "skills/phonopy-changelog/references/source_map.md",
+        "skills/phonopy-citation/SKILL.md",
+        "skills/phonopy-citation/references/doc_map.md",
+        "skills/phonopy-citation/references/source_map.md",
+        "skills/phonopy-command-options/SKILL.md",
+        "skills/phonopy-command-options/references/doc_map.md",
+        "skills/phonopy-command-options/references/source_map.md",
+        "skills/phonopy-phonopy-yaml/SKILL.md",
+        "skills/phonopy-phonopy-yaml/references/doc_map.md",
+        "skills/phonopy-phonopy-yaml/references/source_map.md",
+        "skills/phonopy-setting-tags/SKILL.md",
+        "skills/phonopy-setting-tags/references/doc_map.md",
+        "skills/phonopy-setting-tags/references/source_map.md",
+        "skills/phonopy-symmetry/SKILL.md",
+        "skills/phonopy-symmetry/references/doc_map.md",
+        "skills/phonopy-symmetry/references/source_map.md",
+        "skills/phonopy-theory-and-methods/SKILL.md",
+        "skills/phonopy-theory-and-methods/references/doc_map.md",
+        "skills/phonopy-theory-and-methods/references/source_map.md"
+      ],
+      "modified": [
+        "skills/phonopy-analysis-and-output/SKILL.md",
+        "skills/phonopy-api-and-scripting/SKILL.md",
+        "skills/phonopy-examples-and-tutorials/SKILL.md",
+        "skills/phonopy-index/SKILL.md",
+        "skills/phonopy-inputs-and-modeling/SKILL.md",
+        "skills/phonopy-simulation-workflows/SKILL.md",
+        "skills/phonopy-test/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/phonopy-advanced-topics/references/source_map.md",
+        "skills/phonopy-analysis-and-output/SKILL.md",
+        "skills/phonopy-analysis-and-output/references/source_map.md",
+        "skills/phonopy-api-and-scripting/SKILL.md",
+        "skills/phonopy-api-and-scripting/references/source_map.md",
+        "skills/phonopy-build-and-install/SKILL.md",
+        "skills/phonopy-build-and-install/references/doc_map.md",
+        "skills/phonopy-build-and-install/references/source_map.md",
+        "skills/phonopy-examples-and-tutorials/SKILL.md",
+        "skills/phonopy-examples-and-tutorials/references/source_map.md",
+        "skills/phonopy-general/SKILL.md",
+        "skills/phonopy-general/references/source_map.md",
+        "skills/phonopy-index/SKILL.md",
+        "skills/phonopy-inputs-and-modeling/references/source_map.md",
+        "skills/phonopy-simulation-workflows/references/source_map.md",
+        "skills/phonopy-test/SKILL.md",
+        "skills/phonopy-test/references/doc_map.md",
+        "skills/phonopy-test/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/phonopy-advanced-topics/references/source_map.md",
+        "skills/phonopy-analysis-and-output/SKILL.md",
+        "skills/phonopy-analysis-and-output/references/source_map.md",
+        "skills/phonopy-api-and-scripting/SKILL.md",
+        "skills/phonopy-api-and-scripting/references/source_map.md",
+        "skills/phonopy-build-and-install/SKILL.md",
+        "skills/phonopy-build-and-install/references/doc_map.md",
+        "skills/phonopy-build-and-install/references/source_map.md",
+        "skills/phonopy-examples-and-tutorials/SKILL.md",
+        "skills/phonopy-examples-and-tutorials/references/source_map.md",
+        "skills/phonopy-general/SKILL.md",
+        "skills/phonopy-general/references/source_map.md",
+        "skills/phonopy-index/SKILL.md",
+        "skills/phonopy-inputs-and-modeling/references/source_map.md",
+        "skills/phonopy-simulation-workflows/references/source_map.md",
+        "skills/phonopy-test/SKILL.md",
+        "skills/phonopy-test/references/doc_map.md",
+        "skills/phonopy-test/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Pass 1 discovery confirmed docs/tutorial/tests at top-level doc/example/test.",
+      "Source roots require explicit mapping for this package layout (c and phonopy are not default source-dir candidates).",
+      "Patched sci-skills-generator/scripts/generate_skills_folder.py to fix invalid f-string joins so dry-run generation is deterministic and executable."
+    ],
+    "package_name": "phonopy",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "c",
+      "phonopy"
+    ],
+    "test_dirs": [
+      "test"
+    ],
+    "tutorial_dirs": [
+      "example"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/phonopy-phonopy",
+  "run_id": "compile_20260301T052451632283Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "phonopy-aims",
+      "phonopy-analysis-and-output",
+      "phonopy-animation",
+      "phonopy-api-and-scripting",
+      "phonopy-build-and-install",
+      "phonopy-castep",
+      "phonopy-changelog",
+      "phonopy-citation",
+      "phonopy-command-options",
+      "phonopy-examples-and-tutorials",
+      "phonopy-general",
+      "phonopy-index",
+      "phonopy-inputs-and-modeling",
+      "phonopy-phonopy-yaml",
+      "phonopy-setting-tags",
+      "phonopy-simulation-workflows",
+      "phonopy-symmetry",
+      "phonopy-test",
+      "phonopy-theory-and-methods"
+    ],
+    "core_skill_ids": [
+      "phonopy-simulation-workflows",
+      "phonopy-examples-and-tutorials",
+      "phonopy-api-and-scripting",
+      "phonopy-inputs-and-modeling",
+      "phonopy-analysis-and-output",
+      "phonopy-test"
+    ],
+    "deferred_gaps": [
+      "After generation, merge one-doc low-signal topics into a single phonopy-advanced-topics skill if routing becomes noisy.",
+      "Verify whether important user docs exist only on external hosted docs and are missing from the local doc tree.",
+      "Audit source-map ranking quality for mixed Python/C paths and tune only if misrouting appears in pass 3."
+    ],
+    "goal": "Generate docs-first Phonopy skills, then enrich the highest-impact workflow skills and audit routing quality.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "docs-first routing rules",
+          "escalation path from docs to source",
+          "top-level map of topic skills"
+        ],
+        "reason": "Central router is required so requests land in the right topic skill quickly.",
+        "skill_id": "phonopy-index",
+        "source_hints": [
+          "doc",
+          "example",
+          "test",
+          "phonopy",
+          "c"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "end-to-end phonon workflow steps",
+          "runtime/output interpretation checkpoints",
+          "restart/iteration troubleshooting touchpoints"
+        ],
+        "reason": "Largest documentation cluster; highest probability of user questions on execution workflows.",
+        "skill_id": "phonopy-simulation-workflows",
+        "source_hints": [
+          "doc",
+          "phonopy/cui",
+          "phonopy/phonon",
+          "example"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "CLI command families and when to use each",
+          "Python API entry points",
+          "script-level minimal examples"
+        ],
+        "reason": "Python API and CLI entry points are core to reproducible usage and automation.",
+        "skill_id": "phonopy-api-and-scripting",
+        "source_hints": [
+          "doc",
+          "phonopy/scripts",
+          "phonopy/api_phonopy.py",
+          "test/api"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "structure/force-constant input variants",
+          "key setting tags and defaults",
+          "validation checks before long runs"
+        ],
+        "reason": "Input configuration mistakes are a common failure mode and need compact guidance.",
+        "skill_id": "phonopy-inputs-and-modeling",
+        "source_hints": [
+          "doc",
+          "phonopy/interface",
+          "phonopy/structure",
+          "test/interface"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "supported install paths and dependencies",
+          "C-extension build knobs",
+          "common build failures and fixes"
+        ],
+        "reason": "Installation and binary-extension setup are prerequisite blockers for all other workflows.",
+        "skill_id": "phonopy-build-and-install",
+        "source_hints": [
+          "doc/install.md",
+          "pyproject.toml",
+          "CMakeLists.txt",
+          "c"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "output file semantics",
+          "plotting/analysis command usage",
+          "sanity checks for physical plausibility"
+        ],
+        "reason": "Users frequently need post-processing and plotting guidance after successful runs.",
+        "skill_id": "phonopy-analysis-and-output",
+        "source_hints": [
+          "doc",
+          "phonopy/spectrum",
+          "phonopy/qha",
+          "example"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "phonopy-simulation-workflows",
+      "phonopy-examples-and-tutorials",
+      "phonopy-test",
+      "phonopy-advanced-topics",
+      "phonopy-api-and-scripting",
+      "phonopy-inputs-and-modeling"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/phonopy-phonopy/skills/phonopy-advanced-topics/references/source_map.md: broken path references: cui/settings.py, cui/phonopy_script.py",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/phonopy-phonopy/skills/phonopy-build-and-install/references/source_map.md: broken path references: _phonopy.cpp",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/phonopy-phonopy/skills/phonopy-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/phonopy-phonopy/skills/phonopy-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/phonopy-phonopy/skills/phonopy-test/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/phonopy-phonopy/skills/phonopy-advanced-topics/SKILL.md: missing `## High-Signal Playbook` section.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/phonopy-phonopy/skills/phonopy-api-and-scripting/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/phonopy-phonopy/skills/phonopy-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "phonopy-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "phonopy-index",
+      "phonopy-simulation-workflows",
+      "phonopy-api-and-scripting",
+      "phonopy-inputs-and-modeling",
+      "phonopy-build-and-install",
+      "phonopy-analysis-and-output"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 10,
+    "source_inventory": {},
+    "source_links_total": 141,
+    "topic_skills": 9,
+    "warnings": []
+  }
+}
